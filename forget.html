@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/index.b9fe927c.css">
+    <title>Forgotten Password | Can't Log In | Facebook</title>
+    <style>
+        @media screen and (max-width:1024px){
+           .email,.password,.navbutton{
+               display:none;
+           }
+        }
+        @media screen and (max-width:639.9px){
+           .forget-box{
+               width:90%;
+           }
+           .right{
+               padding: 0;
+           }
+
+        }
+        @media screen and (max-width:1023.9px){
+           .forget-box{
+               width:90%;
+           }
+           .forget-btn{
+               font-size:16px;
+               margin:15px 0px 5px 15px;
+               width:35%;
+           }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 overflow-hidden">
+    <!-- nav -->
+    <div class="nav bg-white flex border-2 py-1">
+        <div class="left w-1/2 flex justify-start items-center"><img src="assets/fblogin.9531e960.svg" class="w-36" alt="loading image!"></div>
+        <div class="right flex w-1/2 justify-end items-center">
+            <input type="text" placeholder="Email or phone" class=" email border-[1px] border-gray-400 rounded-md border-opacity-50 text-md px-4 h-8 my-2 w-auto  focus:border-blue-600 focus:border-[1px] focus:outline-none hover:border-black hover:border-[1px]">
+            <input type="password" placeholder="Password" class="password border-[1px] border-gray-400 rounded-md border-opacity-50 text-md px-4 h-8 my-2 w-auto  focus:border-blue-600 focus:border-[1px] focus:outline-none hover:border-black hover:border-[1px] ml-4">
+            <button class="navbutton w-10/12 py-1 bg-blue-600 my-2 text-md px-2 ml-4 text-white rounded-md hover:bg-blue-700 active:bg-blue-800 duration-200"><a class="text-white" href="thanks.html">Log In</a></button>
+            <a class="my-2 text-blue-600 hover:underline ml-4 mr-4" href="index.html">Create Account</a>          
+            <hr>
+        </div>
+    </div>  
+
+
+    <!-- container -->
+<form>
+    <div class="container flex justify-center items-center bg-gray-100 h-[100vh]">
+        <div class="forget-box bg-white rounded-lg shadow-lg p-6  w-[45%] mt-[-100px]">
+             <p class="text-2xl m-4"><strong>Find your account</strong></p>
+             <hr>
+             <div class="detail-box">
+                 <p class="text-lg m-2">Please enter your email address or mobile number to search for your account.</p>
+                 <input class="border-[1px] border-gray-400 rounded-md border-opacity-50 text-lg px-4 h-12 my-2 w-[100%]  focus:border-blue-600 focus:border-[1px] focus:outline-none hover:border-black hover:border-[1px]" type="text" placeholder="Email address or phone">
+                 <hr>
+                 <div class="button-box flex justify-end items-end">
+                    <button class=" forget-btn w-1/5 py-2 bg-gray-200 mt-6 text-xl text-gray-600 rounded-md hover:bg-gray-300 active:bg-gray-400 duration-200"><a href="index.html">Cancel</a></button>
+                    
+                    <button class=" forget-btn w-1/5 py-2 bg-blue-500 mt-6 text-xl text-white rounded-md px-4 hover:bg-blue-600 active:bg-blue-700 duration-200 ml-4"><a class="text-white" href="thanks.html">Search</a></button>
+                 </div>
+             </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
